@@ -1,5 +1,5 @@
 /* Vlasov Roman */
-/* Попытался решить на 20 баллов. Опоздал 1 день */
+/* Попытался решить на 20 баллов. Опоздал на 1 день */
 
 
 #include <stdio.h>
@@ -10,8 +10,7 @@
 #include <string.h>
 #include <time.h>
 #include <sys/mman.h>
-#include <sys/signal.h>
-#include <sys/stat.h>
+
 
 #define ERROR(...) 	fprintf(stderr, __VA_ARGS__); \
 					exit(EXIT_FAILURE);
